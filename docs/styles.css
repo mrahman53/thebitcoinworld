@@ -1,6 +1,6 @@
 /* Set the background color of the whole page to golden */
 body {
-    background-color: gold; /* You can also use #FFD700 for a slightly different shade */
+    background-color: lightsteelblue; /* You can also use #FFD700 for a slightly different shade */
     font-family: Arial, sans-serif;
     color: black; /* Set text color to ensure it's readable on the golden background */
     margin: 0;
