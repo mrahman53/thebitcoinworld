@@ -1,3 +1,18 @@
+To make the footer text white, simply update the CSS for the `.footer` class. Here's the corrected version of the CSS:
+
+```css
+.footer {
+    background-color: #2c3e50;
+    color: white;  /* Ensures the text color is white */
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+```
+
+This change already includes the necessary styling to make the footer text white (`color: white;`). Here's the full code with this update:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,7 +89,7 @@
         }
         .footer {
             background-color: #2c3e50;
-            color: white;
+            color: white;  /* Ensures the text color is white */
             padding: 10px;
             text-align: center;
             margin-top: 40px;
@@ -136,7 +151,9 @@
 
     <section>
         <h2>Mining Bitcoin at Government and Corporate Levels</h2>
-        <p>Bitcoin mining is the process by which transactions are added to the Bitcoin blockchain and new bitcoins are created. It involves using computational power to solve complex mathematical puzzles, which requires significant energy. Miners compete to solve these puzzles, and the first miner to succeed is rewarded with newly minted bitcoins (currently 3.125 BTC per block) along with transaction fees.</p>
+        <p>Bitcoin mining is the process by which transactions are added to the Bitcoin blockchain and new bitcoins are created. It involves using computational power to
+
+ solve complex mathematical puzzles, which requires significant energy. Miners compete to solve these puzzles, and the first miner to succeed is rewarded with newly minted bitcoins (currently 3.125 BTC per block) along with transaction fees.</p>
         <p>Bitcoin's proof-of-work (PoW) algorithm is essential for ensuring the system’s security and decentralization. Mining requires real-world resources, primarily electricity, and, in some cases, specialized hardware known as ASICs (Application-Specific Integrated Circuits).</p>
         <p>As Bitcoin becomes more widely accepted and its value increases, a nation-state mining Bitcoin could accumulate significant reserves on its balance sheet, potentially leading to long-term wealth accumulation as its holdings appreciate in value.</p>
     </section>
@@ -205,3 +222,6 @@
 
 </body>
 </html>
+```
+
+This will ensure that the footer text appears white, making it contrast well with the dark background color of the footer.
